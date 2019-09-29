@@ -1,0 +1,32 @@
+﻿<Window x:Class="Nico_Claes_r0661818_2ITF1.View.BanAccountWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Nico_Claes_r0661818_2ITF1.View"
+        DataContext="{Binding Source={StaticResource ViewModelLocator},  Path=BanAccountViewModel}"
+        mc:Ignorable="d" 
+        Title="Ban Account" Height="540" Width="810">
+    <Grid Background="white">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="120" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="5*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Center" FontSize="48" FontWeight="Bold">Ban Account</Label>
+        <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center">
+            <Label FontSize="18">Reason:</Label>
+            <TextBox Height="30" Foreground="Black" BorderBrush="Black" Width="300" BorderThickness="1" HorizontalAlignment="left" TextWrapping="Wrap" Text="{Binding Reason}"/>
+            <Label FontSize="18">Duration (days):</Label>
+            <TextBox Name="textBoxDuration" Height="30" Foreground="Black" BorderBrush="Black" Width="300" BorderThickness="1" HorizontalAlignment="left" Text="{Binding Duration}" KeyDown="TextBox_KeyDown" TextChanged="TextBox_TextChanged"/>
+        </StackPanel>
+        <Button Grid.Row="3" Grid.Column="2" Content="Ban" FontSize="18" Background="red" Height="50" Command="{Binding InsertBanCommand}"/>
+    </Grid>
+</Window>

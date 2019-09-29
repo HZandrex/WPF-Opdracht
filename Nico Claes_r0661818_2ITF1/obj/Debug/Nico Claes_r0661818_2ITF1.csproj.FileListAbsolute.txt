@@ -1,0 +1,56 @@
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\Nico Claes_r0661818_2ITF1.exe.config
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\Nico Claes_r0661818_2ITF1.exe
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\Nico Claes_r0661818_2ITF1.pdb
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\Nico Claes_r0661818_2ITF1.csprojResolveAssemblyReference.cache
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\App.g.cs
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\Nico Claes_r0661818_2ITF1_MarkupCompile.cache
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\Nico Claes_r0661818_2ITF1_MarkupCompile.lref
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\Nico Claes_r0661818_2ITF1.g.resources
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\Nico_Claes_r0661818_2ITF1.Properties.Resources.resources
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\Nico Claes_r0661818_2ITF1.csproj.GenerateResource.Cache
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\Nico Claes_r0661818_2ITF1.csproj.CoreCompileInputs.cache
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\Nico Claes_r0661818_2ITF1.exe
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\Nico Claes_r0661818_2ITF1.pdb
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\MainWindow.g.cs
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\MainWindow.baml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\MyDictionary.baml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\UserControlAccounts.g.cs
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\UserControlHome.g.cs
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\UserControlSettings.g.cs
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\MaterialDesignColors.dll
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\MaterialDesignThemes.Wpf.dll
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\MaterialDesignThemes.Wpf.pdb
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\MaterialDesignThemes.Wpf.xml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\App.baml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\UserControlAccounts.baml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\UserControlHome.baml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\UserControlSettings.baml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\UserControlMaps.g.cs
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\UserControlMaps.baml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\UserControlGUI.g.cs
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\UserControlGUI.baml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\UserControlShop.g.cs
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\UserControlShop.baml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\Dapper.dll
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\Dapper.xml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\Google.Protobuf.dll
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\MySql.Data.dll
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\Google.Protobuf.xml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\MySql.Data.xml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\EntityFramework.dll
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\EntityFramework.SqlServer.dll
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\MySql.Data.Entity.EF6.dll
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\EntityFramework.xml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\EntityFramework.SqlServer.xml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\bin\Debug\MySql.Data.Entity.EF6.xml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\EditAccountWindow.g.cs
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\EditAccountWindow.baml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\NewAccountWindow.g.cs
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\NewAccountWindow.baml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\BanAccountWindow.g.cs
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\BanAccountWindow.baml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\EditPlayerWindow.g.cs
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\EditPlayerWindow.baml
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\EditBanAccountWindow.g.cs
+Z:\School\WPF\opdracht\Nico Claes_r0661818_2ITF1\Nico Claes_r0661818_2ITF1\obj\Debug\View\EditBanAccountWindow.baml

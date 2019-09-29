@@ -1,0 +1,104 @@
+﻿<UserControl x:Class="Nico_Claes_r0661818_2ITF1.View.UserControlAccounts"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:local="clr-namespace:Nico_Claes_r0661818_2ITF1.View"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        DataContext="{Binding Source={StaticResource ViewModelLocator}, Path=AccountsViewModel}"
+        mc:Ignorable="d"
+        d:DesignHeight="540" d:DesignWidth="1010">
+
+    <DockPanel Background="white">
+        <Border BorderBrush="black" BorderThickness="0,0,1,0">
+            <StackPanel DockPanel.Dock="left" Width="200">
+                <Grid Height="50">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25" />
+                        <RowDefinition Height="1*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*" />
+                        <ColumnDefinition Width="4*" />
+                        <ColumnDefinition Width="3*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Content="New" Grid.Row="0" Grid.Column="0" Background="Green" Height="25" Command="{Binding CreateAccountCommand}"/>
+                    <Button Content="Delete" Grid.Row="0" Grid.Column="1" Background="Red" IsEnabled="{Binding SelectedItems.Count, ElementName=accountListView}"  Height="25" Command="{Binding DeleteAccountCommand}"/>
+                    <Button Content="Edit" Grid.Row="0" Grid.Column="2" Background="Orange"  IsEnabled="{Binding SelectedItems.Count, ElementName=accountListView}"  Height="25" Command="{Binding EditAccountCommand}"/>
+                    <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Right">
+                        <TextBox x:Name="searchBar" Text="Search Username" Foreground="Black" Width="175" HorizontalAlignment="left"/>
+                        <materialDesign:PackIcon Kind="AccountSearch" Foreground="black" Height="Auto" Width="25" VerticalAlignment="Stretch"/>
+                    </StackPanel>
+                </Grid>
+                <ListView Name="accountListView" ItemsSource="{Binding Accounts}" SelectedItem="{Binding SelectedAccount}" UseLayoutRounding="False">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Content="{Binding Username}" FontSize="14"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+        </Border>
+        <Grid x:Name="UCAccount" Height="540" Width="810">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="130" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="9*" />
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Background="#FF272727">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="90" />
+                    </Grid.ColumnDefinitions>
+                    <Image Height="64" Width="64" Margin="16"/>
+                    <StackPanel Grid.Column="1">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="40" />
+                                <RowDefinition Height="30" />
+                                <RowDefinition Height="30" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="2*" />
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="2*" />
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="2*" />
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="2*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Grid.ColumnSpan="4" Foreground="white" FontWeight="Bold" FontSize="20" Content="{Binding SelectedAccount.Nickname}"></Label>
+                            <Label Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Foreground="white">Clan:</Label>
+                            <Label Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Foreground="white">Pen:</Label>
+                            <Label Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Foreground="white" Content="{Binding SelectedPlayer.Pen}"/>
+                            <Label Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="2" Foreground="white">AP:</Label>
+                            <Label Grid.Column="3" Grid.Row="2" Grid.ColumnSpan="2" Foreground="white" Content="{Binding SelectedPlayer.Ap}"/>
+                            <Label Grid.Column="4" Grid.Row="1" Grid.ColumnSpan="2" Foreground="white">Level:</Label>
+                            <Label Grid.Column="5" Grid.Row="1" Grid.ColumnSpan="2" Foreground="white" Content="{Binding SelectedPlayer.Level}"/>
+                            <Label Grid.Column="6" Grid.Row="1" Grid.ColumnSpan="2" Foreground="white">Exp:</Label>
+                            <Label Grid.Column="7" Grid.Row="1" Grid.ColumnSpan="2" Foreground="white" Content="{Binding SelectedPlayer.TotalExperience}"/>
+                            <Label Grid.Column="4" Grid.Row="2" Grid.ColumnSpan="2" Foreground="white">Won:</Label>
+                            <Label Grid.Column="6" Grid.Row="2" Grid.ColumnSpan="2" Foreground="white">Lost:</Label>
+                        </Grid>
+                    </StackPanel>
+                    <StackPanel Grid.Column="2" Grid.Row="2">
+                        <Button Content="Edit info" Background="Orange" Command="{Binding EditPlayerCommand}"/>
+                        <Button Content="Ban" Background="red" Command="{Binding BanAccountCommand}"/>
+                        <Button Content="Unban" Background="red" Command="{Binding UnbanAccountCommand}"/>
+                        <Button Content="Edit ban" Background="Orange" Command="{Binding EditBanAccountCommand}"/>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+            <Label Grid.Row="1" Grid.Column="0" Content="Equipment"></Label>
+            <StackPanel Grid.Row="1" Grid.Column="1">
+                <Label Content="Inventory"></Label>
+            </StackPanel>
+        </Grid>
+    </DockPanel>
+</UserControl>
